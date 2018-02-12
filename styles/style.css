@@ -7,13 +7,18 @@
 	clear: both;
 }
 
-a {
+a:link {
 	text-decoration: none;
 }
 
-/*body {
-	margin: 0 auto;
-}*/
+/* mouse over link */
+a.regularitem:hover {
+    color: #666666;
+}
+
+a.emphasisitem:hover {
+    color: #666666;
+}
 
 .container {
 	margin: 0 auto;
